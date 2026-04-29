@@ -1,0 +1,34 @@
+
+> proyecto@0.0.0 build
+> vite build
+
+[36mvite v8.0.10 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 1752 modules transformed.
+[31m✗[39m Build failed in 2.30s
+[31merror during build:
+[31mBuild failed with 1 error:
+
+[31m[UNRESOLVED_IMPORT] Error:[0m Could not resolve './Client.css' in src/components/ProductCard.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/ProductCard.jsx:5:8 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m5 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m"./Client.css"[38;5;249m;[0m
+ [38;5;240m  │[0m        ───────┬──────  
+ [38;5;240m  │[0m               ╰──────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/components/ProductCard.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/components/ProductCard.jsx
+ [38;5;240m  │[0m         - src/pages/client/Home.jsx
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+[31m
+    at aggregateBindingErrorsIntoJsError (file:///C:/Users/DELL/Desktop/proyecto/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:48:18)
+    at unwrapBindingResult (file:///C:/Users/DELL/Desktop/proyecto/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:18:128)
+    at #build (file:///C:/Users/DELL/Desktop/proyecto/node_modules/rolldown/dist/shared/rolldown-build-DSxL8qiP.mjs:3317:34)
+    at async buildEnvironment (file:///C:/Users/DELL/Desktop/proyecto/node_modules/vite/dist/node/chunks/node.js:33018:64)
+    at async Object.build (file:///C:/Users/DELL/Desktop/proyecto/node_modules/vite/dist/node/chunks/node.js:33440:19)
+    at async Object.buildApp (file:///C:/Users/DELL/Desktop/proyecto/node_modules/vite/dist/node/chunks/node.js:33437:153)
+    at async CAC.<anonymous> (file:///C:/Users/DELL/Desktop/proyecto/node_modules/vite/dist/node/cli.js:778:3) {
+  errors: [Getter/Setter]
+}[39m
